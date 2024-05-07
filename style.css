@@ -9,11 +9,12 @@ header{
     flex-direction: column;
     margin-top: 10em;
     width: 100%;
-    height:50vh;
+    height:50%;
     background-image: url('images/main_image.jpg');
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center 40%; 
+    padding: 3em;
 }
 .main{
     background-color:#e1e2dfda;
@@ -55,7 +56,7 @@ header{
     font-size: 3em;
     font-weight: 300;
     margin-inline: auto;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
 }
 
 .header-button
@@ -69,7 +70,7 @@ header{
 
 .header-buttons-div
 {
-    width: 35%;
+    width: 35em;
 }
 
 .card
