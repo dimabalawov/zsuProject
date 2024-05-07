@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    width: 100%;
+    height:50vh;
+    background-image: url('images/main_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center 40%; 
+}
+.main{
+    background-color:#e1e2dfda;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    
+    height:auto;
+}
+.depart
+{
+    font-size:1.5em;
+    font-weight: bolder;
+    color: rgb(69, 68, 68);
+    width:80%;
+    margin: 0 auto;
+    border-radius: .5em;
+    padding: .8em;
+}
+#logo
+{
+    height: 8em;
+}
+
+
+
+.navbar-text
+{
+    width: 8em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-inline: 5em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#header-text
+{
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+    margin-inline: auto;
+    margin-top: 2.5em;
+}
+
+.header-button
+{
+    margin-top: 1em;
+    width: 12em;
+    height: 2.5em;
+    border-radius: 1.5em;
+    font-weight: bolder;
+}
+
+.header-buttons-div
+{
+    width: 35%;
+}
+
+.card
+{
+    display: flex !important;
+    width: 20em !important;
+    height: 6em;
+    padding: 1.5em;
+    font-size: 1.5em;
+    font-weight: bold !important;
+    text-align: left;
+    margin-left: 6em;
+    margin-block: 1em;
+    justify-content: center !important;
+}
+
+.custom-nav-button {
+    background-color: #E5E6E4 !important; 
+    color: #000000 !important; 
+    border-left: 0.2em solid rgb(42, 41, 41) !important;
+    border-radius: 0 !important;
+    padding: 10px 15px !important; 
+    margin-bottom: 10px !important; 
+    transition: background-color 0.5s ease, border-left 0.5s ease, box-shadow 0.5s ease !important; 
+}
+
+.custom-nav-button:hover {
+    background-color: rgb(238, 238, 238)!important;
+    border-left: 0.2em solid rgb(248, 182, 0) !important; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.custom-nav-button:focus {
+    background-color: rgb(238, 238, 238)!important;
+    border-left: 0.2em solid rgb(248, 182, 0) !important; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+
+.card-desc
+{
+    width: 35em !important;
+    margin-inline: 10em;
+    align-content: flex-end;
+}
+
+h5{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.card-desc li{
+    font-size: 1.2em !important;
+}
+footer{
+    height: auto;
+    background-color: #5a9058;
+    color:white;
+    padding: 3em;
+    text-align: center;
+}
+.footer-button
+{
+    margin-top:1em ;
+    width: auto;
+    font-weight: bold !important; 
+}
