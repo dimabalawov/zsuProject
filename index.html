@@ -12,25 +12,21 @@
 
 
 <body>
-    <!-- <nav class=" logo-div navbar navbar-expand-lg bg-white shadow-lg"></nav> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0 mb-3">
-        <div class="p-3 container-fluid d-flex justify-content-between bg-warning rounded shadow-inner">
-            <span class="navbar-text">Комплекс розвідки</span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top p-0 mb-3" id = "logotype">
+        <div class="p-3 container-fluid d-flex justify-content-center bg-transparent">
             <img id="logo" src="images/logo.png">
-            <span class="navbar-text">"Ай-Петрi"</span>
-           
-
         </div>
     </nav>
+    
     
    
     <header>
         <div class = "d-flex flex-column">
         <h1 id = "header-text">ОПАНУЙ ЗБРОЮ МАЙБУТНЬОГО</h1>
-        <h1 class="text-warning mx-auto font-weight-bold">Комплекс розвідки "Ай-Петрi"</h1>
-        <div class = "header-buttons-div d-flex flex-row mx-auto justify-content-between ">
-            <a href ="#vacancies" type="button" class="header-button btn btn-warning btn-lg"><b>Вакансії</b></button></a>
-            <a href ="#footer" type="button" class="header-button btn btn-warning btn-lg "><b>Заповнити анкету</b></button></a>
+        <h1 class="text-warning mx-auto font-weight-bold" id = "header-second-text">Комплекс розвідки "Ай-Петрi"</h1>
+        <div class = "header-buttons-div" id="header-buttons">
+            <a href ="#vacancies" type="button" class="header-button btn btn-warning btn-lg"><b>Вакансії</b></a>
+            <a href ="#footer" type="button" class="header-button btn btn-warning btn-lg "><b>Заповнити анкету</b></a>
         </div>
             
 
@@ -38,11 +34,11 @@
     <div class="main" id = "vacancies">
         <div class="depart">Військова частина А4924 – військова частина, яка підпорядковується Генеральному штабу Збройних Сил України. Основним завданням є виконання бойових (спеціальних) завдань з протидії технічним розвідкам та безпілотним літальним апаратам.</div>
         <div style="text-align: center;margin: 3em;">
-        <h1 style="font-size: 4em;font-weight: bold;">ВАКАНСІЇ</h1>
+        <h1 id = "vacancies-title">ВАКАНСІЇ</h1>
         </div>
-        <div class="d-flex align-items-start" >
-            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link btn-link active card custom-nav-button" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Офіцер відділу протидії технічним розвідкам</button>
+        <div class="d-flex flex-row justify-content-center" id = "card-section" >
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active btn-link card custom-nav-button" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Офіцер відділу протидії технічним розвідкам</button>
                 <button class="nav-link btn-link card custom-nav-button" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Начальник групи протидії технічним розвідкам відділу протидії технічним розвідкам</button>
                 <button class="nav-link btn-link card custom-nav-button" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Офіцер відділу комплексного технічного контролю</button>
                 <button class="nav-link  btn-link card custom-nav-button" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Водій-оператор групи протидії технічним розвідкам відділу протидії технічним розвідкам</button>
@@ -137,34 +133,31 @@
                                         <div class="card-desc tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                                             <h3 class="roboto-light">Водій-оператор групи протидії технічним розвідкам відділу протидії технічним розвідкам</h3>
 
-                        <ul>
-                        <h5>Обов’язки:</h5>
-                            <li>розгортання засобів протидії технічним розвідкам</li>
-                            <li>обслуговування й забезпечення безперебійної роботи апаратури протидії технічним розвідкам</li>
-                            <li>виконання бойових завдань у складі підрозділу</li>
-                            <li>належна експлуатація та догляд за автомобільною технікою</li>
-                            <li>дотримання дисципліни та вимог статутів</li>
-                        </ul>
-                        <ul>
-                        <h5>Вимоги:</h5>
-                            <li>придатність до служби за станом здоров’я</li>
-                            <li>наявність посвідчення водія категорії «В»</li>
-                            <li>фізична витривалість та психологічна стійкість</li>
-                            <li>відсутність судимостей</li>
-                            <li>кваліфікація і рівень освіти (науковий ступінь, вчене звання): повна загальна середня освіта та посвідчення водія з відповідною категорією.</li>
-                        </ul>
-                        <ul>
-                        <h5>Умови:</h5>
-                            <li>мобілізація до кінця воєнного стану або служба за контрактом</li>
-                            <li>грошове забезпечення від 20 000 до 120 000 гривень</li>
-                            <li>посада рядового складу</li>
-                            <li>можливість проходження навчання й підвищення кваліфікації</li>
-                            <li>соціальні гарантії</li>
-                        </ul>
-            </div>
-
-
-
+                                            <ul>
+                                                <h5>Обов’язки:</h5>
+                                                    <li>розгортання засобів протидії технічним розвідкам</li>
+                                                    <li>обслуговування й забезпечення безперебійної роботи апаратури протидії технічним розвідкам</li>
+                                                    <li>виконання бойових завдань у складі підрозділу</li>
+                                                    <li>належна експлуатація та догляд за автомобільною технікою</li>
+                                                    <li>дотримання дисципліни та вимог статутів</li>
+                                                </ul>
+                                                <ul>
+                                                <h5>Вимоги:</h5>
+                                                    <li>придатність до служби за станом здоров’я</li>
+                                                    <li>наявність посвідчення водія категорії «В»</li>
+                                                    <li>фізична витривалість та психологічна стійкість</li>
+                                                    <li>відсутність судимостей</li>
+                                                    <li>кваліфікація і рівень освіти (науковий ступінь, вчене звання): повна загальна середня освіта та посвідчення водія з відповідною категорією.</li>
+                                                </ul>
+                                                <ul>
+                                                <h5>Умови:</h5>
+                                                    <li>мобілізація до кінця воєнного стану або служба за контрактом</li>
+                                                    <li>грошове забезпечення від 20 000 до 120 000 гривень</li>
+                                                    <li>посада рядового складу</li>
+                                                    <li>можливість проходження навчання й підвищення кваліфікації</li>
+                                                    <li>соціальні гарантії</li>
+                                                </ul>
+                                    </div>
 
 
                 
