@@ -190,7 +190,7 @@ footer{
     }
     #card-section
     {
-        gap:0;
+        gap:0 !important;
     }
     .card-desc
     {
