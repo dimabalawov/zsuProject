@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -42,12 +43,15 @@ header{
     color: white;
     font-size: 3em;
     font-weight: 300;
+    text-align: center;
     margin-inline: auto;
     margin-top: 1.5em;
 }
 #header-second-text
 {
     font-size: 2.5em;
+    text-align: center;
+    margin-inline: auto;
 }
 #vacancies-title
 {
@@ -140,6 +144,7 @@ header{
 .card-desc h3{
     font-weight: bolder;
     animation: increaseText .5s ease forwards;
+    margin-bottom:1em ;
 }
 
 @keyframes increaseText {
@@ -148,8 +153,9 @@ header{
     }
 }
 h5{
-    font-size: 2em;
-    font-weight: bolder;
+    font-size: 1.5em !important;
+    font-weight: 700 !important;
+    color: #336132;
 }
 
 .card-desc li{
@@ -182,14 +188,18 @@ footer{
       flex-direction: column !important;
       align-items: center; 
     }
+    #card-section
+    {
+        gap:0;
+    }
     .card-desc
     {
-        width: 60vw;
+        width: 80vw;
         margin-left: 0;
     }
     .card
     {
-        width: 60vw;
+        width: 80vw;
         margin-right: 0;
     }
     .header-buttons-div
@@ -210,11 +220,11 @@ footer{
 {
     #header-text
     {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     #header-second-text
     {
-        font-size:1.5em;
+        font-size:2.3em;
     }
 }
 @media screen and (max-width: 660px) {
@@ -229,26 +239,38 @@ footer{
         z-index: 0;
     }
     html{
-        font-size: 75% !important;
+        font-size: 90% !important;
+    }
+    .card
+    {
+        font-size: 2em;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width:570px)
+{
+    #header-second-text
+    {
+        width: 10em;
+    }
+}
+ @media screen and (max-width: 500px) {
     .card{
-        font-size: 100% !important ;
+        height: auto;
     }
     #vacancies-title
     {
         font-size: 2em;
     }
-}
+} 
 
 @media screen and (max-width: 430px) {
     #header-text
     {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     #header-second-text
     {
-        font-size: 1.2em;
+        font-size: 2em;
+        text-align: center;
     }
 }
