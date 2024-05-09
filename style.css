@@ -147,11 +147,11 @@ header{
     margin-bottom:1em ;
 }
 
-@keyframes increaseText {
+/* @keyframes increaseText {
     to {
         font-size: 1.85em;
     }
-}
+} */
 h5{
     font-size: 1.5em !important;
     font-weight: 700 !important;
@@ -177,6 +177,11 @@ footer{
 }
 
 @media screen and (max-width: 1180px) {
+
+    .card-desc h3{
+        animation: none;
+    }
+
     #logotype{
         display: none;
     }
