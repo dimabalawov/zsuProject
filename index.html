@@ -29,10 +29,10 @@
     
     <div class="main" id = "vacancies">
         <div id="gallery-container">
-            <a href="images/galleryPhoto1.jpg"><img src="images/galleryPhoto1.jpg" alt=" " class="thumbnail"></a>
-            <a href="images/galleryPhoto2.jpg"><img src="images/galleryPhoto2.jpg" alt=" " class="thumbnail"></a>
-            <a href="images/galleryPhoto3.jpg"><img src="images/galleryPhoto3.jpg" alt=" " class="thumbnail"></a>
-            <a href="images/galleryPhoto4.jpg"><img src="images/galleryPhoto4.jpg" alt=" " class="thumbnail"></a>
+            <a href="images/galleryPhoto1.jpg"><img src="images/galleryPhoto1_thumb.jpg" alt=" " class="thumbnail"></a>
+            <a href="images/galleryPhoto2.jpg"><img src="images/galleryPhoto2_thumb.jpg" alt=" " class="thumbnail"></a>
+            <a href="images/galleryPhoto3.jpg"><img src="images/galleryPhoto3_thumb.jpg" alt=" " class="thumbnail"></a>
+            <a href="images/galleryPhoto4.jpg"><img src="images/galleryPhoto4_thumb.jpg" alt=" " class="thumbnail"></a>
         </div>
         <div class="depart">Військова частина А4924 – військова частина, яка підпорядковується Генеральному штабу Збройних Сил України. Основним завданням є виконання бойових (спеціальних) завдань з протидії технічним розвідкам та безпілотним літальним апаратам.</div>
         <div style="text-align: center;margin: 3em;">
@@ -182,7 +182,8 @@
         document.addEventListener('DOMContentLoaded', () => {
             lightGallery(document.getElementById("gallery-container"), {
                 speed: 500,
-                plugins: [lgZoom]
+                plugins: [lgZoom],
+                download: false
             });
         });
     </script>
