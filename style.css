@@ -16,7 +16,7 @@ body{
 }
   
 .thumbnail {
-    width: 300px;
+    width: 300px !important;
     border-radius: .5em;
     object-fit: cover;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, .7);
